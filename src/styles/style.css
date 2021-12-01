@@ -1,0 +1,51 @@
+#app-login-btn {
+  width: 160px;
+}
+
+.container {
+}
+
+p {
+  word-wrap: break-word;
+}
+
+.wrapper, .wrapperTask {
+  height: 70px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper:not(p):hover {
+  background-color: #f3e2b0;
+}
+
+.wrapperTask:not(p):hover {
+  background-color: #e9d7a0 
+}
+
+#ready, #inProgress, #finished {
+  min-height: 60px;
+}
+
+.inputCh {
+  height: 30px;
+}
+
+#userName {
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 20px;
+}
+
+#inProgressCol, #finishedCol, #readyCol {
+  border: 1px solid black;
+  border-radius: 5px;
+  /* margin: 1px; */
+}
+.row {
+display: flex;
+justify-content: space-between;
+}
